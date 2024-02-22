@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TimeTest" project="Time" tests="12" started="12" failures="0" errors="0" ignored="0">
+  <testsuite name="time.TimeTest" time="0.077" displayname="TimeTest" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]">
+    <testcase name="testGetTotalSecondsBad" classname="time.TimeTest" time="0.016" displayname="testGetTotalSecondsBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetTotalSecondsBad()]"/>
+    <testsuite name="testGetTotalHoursGoodBoundary(time.TimeTest)" time="0.02" displayname="testGetTotalHoursGoodBoundary(String)" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[test-template:testGetTotalHoursGoodBoundary(java.lang.String)]">
+      <testcase name="testGetTotalHoursGoodBoundary" classname="time.TimeTest" time="0.02" dynamicTest="true" displayname="[1] 05:10:15" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[test-template:testGetTotalHoursGoodBoundary(java.lang.String)]/[test-template-invocation:#1]"/>
+      <testcase name="testGetTotalHoursGoodBoundary" classname="time.TimeTest" time="0.001" dynamicTest="true" displayname="[2] 23:59:59" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[test-template:testGetTotalHoursGoodBoundary(java.lang.String)]/[test-template-invocation:#2]"/>
+    </testsuite>
+    <testcase name="testGetTotalMinutesBad" classname="time.TimeTest" time="0.002" displayname="testGetTotalMinutesBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetTotalMinutesBad()]"/>
+    <testcase name="testGetTotalSecondsGood" classname="time.TimeTest" time="0.001" displayname="testGetTotalSecondsGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetTotalSecondsGood()]"/>
+    <testcase name="testGetTotalSecondsBoundary" classname="time.TimeTest" time="0.001" displayname="testGetTotalSecondsBoundary()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetTotalSecondsBoundary()]"/>
+    <testsuite name="testGetTotalMintuesGoodBoundary(time.TimeTest)" time="0.001" displayname="testGetTotalMintuesGoodBoundary(String)" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[test-template:testGetTotalMintuesGoodBoundary(java.lang.String)]">
+      <testcase name="testGetTotalMintuesGoodBoundary" classname="time.TimeTest" time="0.001" dynamicTest="true" displayname="[1] 05:10:15" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[test-template:testGetTotalMintuesGoodBoundary(java.lang.String)]/[test-template-invocation:#1]"/>
+      <testcase name="testGetTotalMintuesGoodBoundary" classname="time.TimeTest" time="0.001" dynamicTest="true" displayname="[2] 23:59:59" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[test-template:testGetTotalMintuesGoodBoundary(java.lang.String)]/[test-template-invocation:#2]"/>
+    </testsuite>
+    <testsuite name="testGetSecondsGoodBoundary(time.TimeTest)" time="0.001" displayname="testGetSecondsGoodBoundary(String)" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[test-template:testGetSecondsGoodBoundary(java.lang.String)]">
+      <testcase name="testGetSecondsGoodBoundary" classname="time.TimeTest" time="0.001" dynamicTest="true" displayname="[1] 05:10:15" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[test-template:testGetSecondsGoodBoundary(java.lang.String)]/[test-template-invocation:#1]"/>
+      <testcase name="testGetSecondsGoodBoundary" classname="time.TimeTest" time="0.001" dynamicTest="true" displayname="[2] 23:59:59" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[test-template:testGetSecondsGoodBoundary(java.lang.String)]/[test-template-invocation:#2]"/>
+    </testsuite>
+    <testcase name="testGetTotalHoursBad" classname="time.TimeTest" time="0.001" displayname="testGetTotalHoursBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetTotalHoursBad()]"/>
+    <testcase name="testGetSecondsBad" classname="time.TimeTest" time="0.001" displayname="testGetSecondsBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetSecondsBad()]"/>
+  </testsuite>
+</testrun>
